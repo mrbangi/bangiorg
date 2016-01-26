@@ -82,10 +82,9 @@ install() {
 
   cd tg
   if [ $RET -ne 0 ]; then
-    autoconf -i
+    autoconf 
   fi
-  ./configure && make
-
+  ./configure 
   RET=$?; if [ $RET -ne 0 ]; then
     echo "Error. Exiting."; exit $RET;
   fi
