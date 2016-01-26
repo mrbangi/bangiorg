@@ -6,11 +6,11 @@ do
  
  
    local text = matches[1]
-   local chat = "chat#id"..YourChatId 
+   local chat = "chat#id".. 69057592
    --like : local chat = "chat#id"..12345678
    
   local sends = send_msg(chat, fuse, ok_cb, false)
-  return 'your feedback send to mrbangi!'
+  return 'Sent!'
  
  end
  end
